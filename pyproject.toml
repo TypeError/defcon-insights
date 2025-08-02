@@ -1,0 +1,15 @@
+[project]
+name = "defcon-insights"
+version = "0.1.0"
+description = "Data analysis and visualization from DEF CON conference content."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "polars>=1.32.0",
+    "requests>=2.32.4",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]
